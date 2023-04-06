@@ -1,0 +1,19 @@
+POST http://localhost:1947/login
+Content-Type: application/json
+
+{
+    "username": "azif",
+    "password": "12345"
+}
+
+###
+
+GET http://localhost:1947/bye
+
+###
+
+GET http://localhost:1947/
+
+###
+
+POST http://localhost:1947/register
