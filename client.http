@@ -3,7 +3,7 @@ Content-Type: application/json
 
 {
     "username": "azif",
-    "password": "12345"
+    "password": "123456"
 }
 
 ###
@@ -17,3 +17,21 @@ GET http://localhost:1947/
 ###
 
 POST http://localhost:1947/register
+Content-Type: application/json
+
+{
+    "username": "UTEM",
+    "password": "utemdabest",
+    "name": "UTeM",
+    "email": "b022110210@student.utem.edu.my"
+}
+
+###
+
+POST http://localhost:1947/login
+Content-Type: application/json
+
+{
+    "username": "UTEM",
+    "password": "utemdabest"
+}
